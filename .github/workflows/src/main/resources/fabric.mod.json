@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "aibuddy",
+  "version": "${version}",
+  "name": "AI Buddy",
+  "description": "AI companion with 30 hearts",
+  "environment": "*",
+  "entrypoints": { "main": ["th.buddy.BuddyMod"], "client": ["th.buddy.BuddyClient"] },
+  "depends": { "fabricloader": ">=0.17.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
